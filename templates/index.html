@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bio-guia</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
+</head>
+
+<body>
+    <header>
+
+        <div class="container">
+            <p class="logo">Bio-guia!</p>
+            <nav>
+                <a href="#somos-proya">Quienes Somos</a>
+                <a href="#nuestros-programas">Nuestro Programa</a>
+                <a href="#caracteristicas">Características</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Aprendé de animales <br>y donde encontrarlos</h1>
+        <button><a href="{{ url_for('predecir') }}">BUSCALOS YA!</a></button>
+    </section>
+
+    <section id="somos-proya">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2>Somos <span class="color-acento">Bio-guia!</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veritatis a autem sed dignissimos
+                    commodi, voluptas incidunt voluptatibus cum, quia neque nulla consequatur laborum accusamus,
+                    perspiciatis odio nemo minus vel!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nuestros-programas">
+        <div class="container">
+            <h2>Nuestro Programa</h2>
+            <div class="programas">
+                <div class="carta">
+                    <h3>Animales domesticos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe
+                        qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia
+                        ducimus veritatis repellendus?</p>
+                    <button>+ Info</button>
+                </div>
+                <div class="carta">
+                    <h3>Animales rurales</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe
+                        qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia
+                        ducimus veritatis repellendus?</p>
+                    <button>+ Info</button>
+                </div>
+                <div class="carta">
+                    <h3>Animales peligrosos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe
+                        qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia
+                        ducimus veritatis repellendus?</p>
+                    <button>+ Info</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <h1>jskldafjalksdjflk</h1>
+    <section id="final">
+        <h2>Listo para explorar?</h2>
+        <button><a href="{{ url_for('predecir') }}">BUSCALOS YA!</a></button>
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Bio-guia 2024</p>
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

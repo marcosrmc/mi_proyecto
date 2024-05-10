@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASIFICADOR DE ANIMALES</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='prd.css') }}">
+</head>
+<body>
+    
+    <div id="result">
+        <header>
+            <div class="container">
+                <p class="logo">Bio-guia!</p>
+                <nav>
+                    <a href="#somos-proya">Instrucciones</a>
+                </nav>
+            </div>
+        </header>
+    
+        <section id="hero">
+            <h1>Busca <br> <span class="color-acento">&</span><br>Descubre</h1>
+            
+
+
+            <div id="contenedor-prediccion">
+                <!-- Tu formulario y resultados aquí -->
+         
+                <form action="/" method="post" enctype="multipart/form-data" id="animal-form">
+                    <!-- Agrega una etiqueta para el campo de entrada de archivos -->
+                    <label type="submit" for="image">Seleccionar imagen:</label>
+                    <input type="file" id="image" name="image" accept="image/*" title="Seleccionar imagen">
+                    <button type="submit" id="btnpredecir">Predecir</button>
+                </form>
+                
+                {% if image_path %}
+                <div class="result">
+                    <h2>Imagen seleccionada:</h2>
+                    <!-- Muestra la imagen si hay una ruta de imagen disponible -->
+                    <img src="{{ url_for('static', filename='temp_image.jpg') }}"style="width: 200; height: 200px;" alt="Imagen seleccionada">
+                </div>
+                {% endif %}
+                
+                {% if predicted_class %}
+                <div class="result">
+                    <h2>Resultado:</h2>
+                    <p>Clase: {{ predicted_class }}</p>
+                    <p>Confianza: {{ confidence }}%</p>
+                </div>
+                {% endif %}
+                
+            </div>
+            
+           
+
+        </section>
+    
+        <section id="somos-proya">
+            <div class="container">
+                <div class="img-container"></div>
+                <div class="texto">
+    
+                    <h2>Instrucciones</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veritatis a autem sed dignissimos commodi, voluptas incidunt voluptatibus cum, quia neque nulla consequatur laborum accusamus, perspiciatis odio nemo minus vel!</p>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+    <script>
+
+        function seleccionarImagen() {
+            document.getElementById('inputFile').click();
+        }
+    
+        document.getElementById('inputFile').addEventListener('change', function(event) {
+            var archivo = event.target.files[0];
+            var lector = new FileReader();
+            
+            lector.onload = function(event) {
+                var imagenMostrada = document.getElementById('imagenMostrada');
+                imagenMostrada.src = event.target.result;
+                imagenMostrada.style.display = 'block';
+            };
+            
+            lector.readAsDataURL(archivo);
+        });
+    </script>
+
+<footer>
+    <div class="container">
+        <p>&copy; Bio-guia 2024</p>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
