@@ -25,11 +25,19 @@
                 <!-- Tu formulario y resultados aquí -->
          
                 <form action="/" method="post" enctype="multipart/form-data" id="animal-form">
-                    <!-- Agrega una etiqueta para el campo de entrada de archivos -->
-                    <label type="submit" for="image">Seleccionar imagen:</label>
+                    <label for="image">Seleccionar imagen:</label>
                     <input type="file" id="image" name="image" accept="image/*" title="Seleccionar imagen">
+                   
+                    
+                    <select id="model" name="model">
+                        {% for model_name in model_names %}
+                            <option value="{{ model_name }}">{{ model_name }}</option>
+                        {% endfor %}
+                    </select>
+                    
                     <button type="submit" id="btnpredecir">Predecir</button>
                 </form>
+                
                 
                 {% if image_path %}
                 <div class="result">
@@ -39,13 +47,19 @@
                 </div>
                 {% endif %}
                 
-                {% if predicted_class %}
-                <div class="result">
-                    <h2>Resultado:</h2>
-                    <p>Clase: {{ predicted_class }}</p>
-                    <p>Confianza: {{ confidence }}%</p>
-                </div>
-                {% endif %}
+                {% if predicted_results %}
+<div class="result">
+    <h2>Resultado:</h2>
+    {% for predicted_class in predicted_results %}
+    Clase: {{ predicted_class }} <br>
+    <button type="button" class="btn btn-info"> mostrar Descripción</button>
+    <br> <!-- Agrega un salto de línea después de cada clase predicha -->
+    {% endfor %}
+</div>
+{% endif %}
+                
+
+            
 
             </div>
             
@@ -57,7 +71,7 @@
                 <div class="texto">
     
                     <h2>Instrucciones</h2>
-                    <p>Para usar este programa deve hacer clic en Seleccionar Imagen y despues de seleccionar, hacer clic en Predecir.
+                    <p>Para usar este programa debe hacer clic en Seleccionar Imagen y despues de seleccionar, hacer clic en Predecir.
                          Luego el programa le mostrará un resultado de a que animal se parece y le mostrará un porcentaje de precición.</p>
                 </div>
             </div>
