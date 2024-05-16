@@ -1,1001 +1,1001 @@
-background
-tench
-goldfish
-great white shark
-tiger shark
-hammerhead
-electric ray
-stingray
-cock
-gallina
-ostrich
-brambling
-goldfinch
-house finch
-junco
-indigo bunting
-robin
-bulbul
-jay
-magpie
-chickadee
-water ouzel
-aguila
-aguila
-vulture
-great grey owl
-European fire salamander
-common newt
-eft
-spotted salamander
-axolotl
-bullfrog
-tree frog
-tailed frog
-loggerhead
-leatherback turtle
-mud turtle
-terrapin
-box turtle
-banded gecko
-common iguana
-American chameleon
-whiptail
-agama
-frilled lizard
-alligator lizard
-Gila monster
-green lizard
-African chameleon
-Komodo dragon
-African crocodile
-American alligator
-rinoceronte
-thunder snake
-ringneck snake
-hognose snake
-green snake
-king snake
-garter snake
-water snake
-vine snake
-night snake
-boa constrictor
-rock python
-Indian cobra
-green mamba
-sea snake
-horned viper
-diamondback
-sidewinder
-trilobite
-harvestman
-scorpion
-black and gold garden spider
-barn spider
-garden spider
-black widow
-tarantula
-wolf spider
-tick
-centipede
-black grouse
-ptarmigan
-ruffed grouse
-prairie chicken
-peacock
-quail
-perdiz
-African grey
-macaw
-sulphur-crested cockatoo
-lorikeet
-coucal
-bee eater
-hornbill
-hummingbird
-jacamar
-toucan
-drake
-red-breasted merganser
-goose
-black swan
-tusker
-echidna
-platypus
-wallaby
-koala
-wombat
-jellyfish
-sea anemone
-brain coral
-flatworm
-nematode
-conch
-snail
-slug
-sea slug
-chiton
-chambered nautilus
-Dungeness crab
-rock crab
-fiddler crab
-king crab
-American lobster
-spiny lobster
-crayfish
-hermit crab
-isopod
-white stork
-black stork
-spoonbill
-flamingo
-little blue heron
-American egret
-bittern
-crane
-limpkin
-European gallinule
-American coot
-bustard
-ruddy turnstone
-red-backed sandpiper
-redshank
-dowitcher
-oystercatcher
-pelican
-king penguin
-albatross
-grey whale
-killer whale
-dugong
-leon marino
+Este no es un animal
+Tenca
+Pez dorado
+Tiburón blanco
+Tiburón tigre
+Tiburón martillo
+Raya eléctrica
+Raya
+Gallo
+Gallina
+Avestruz
+Pinzón montés
+Jilguero
+Pinzón doméstico
+Junco
+Azulón índigo
+Petirrojo
+Bulbul
+Arrendajo
+Urraca
+Carbonero
+Mirlo acuático
+Milano
+Águila calva
+Buitre
+Búho gris
+Salamandra de fuego europea
+Tritón común
+Eft
+Salamandra moteada
+Ajolote
+Rana toro
+Rana arbórea
+Rana de cola
+Cabezón
+Tortuga laúd
+Tortuga de barro
+Tortuga de agua
+Tortuga de caja
+Geco de bandas
+Iguana común
+Camaleón americano
+Lagartija de látigo
+Agama
+Lagarto cornudo
+Lagarto espinoso
+Lagarto monstruo de Gila
+Lagarto verde
+Camaleón africano
+Dragón de Komodo
+Cocodrilo africano
+Caimán americano
+Rinoceronte
+Serpiente trueno
+Serpiente de collar
+Serpiente hocicuda
+Serpiente verde
+Serpiente rey
+Serpiente de liga
+Serpiente de agua
+Serpiente de vid
+Serpiente nocturna
+Boa constrictora
+Pitón de roca
+Cobra india
+Mamba verde
+Serpiente marina
+Víbora cornuda
+Cascabel
+Serpiente de cascabel
+Trilobita
+Opilión
+Escorpión
+Araña de jardín negra y dorada
+Araña de granero
+Araña de jardín
+Viuda negra
+Tarántula
+Araña lobo
+Garrapata
+Ciempies
+Urogallo negro
+Lagópodo
+Urogallo común
+Gallina de las praderas
+Pavo real
+Codorniz
+Perdiz
+Loro gris africano
+Guacamayo
+Cacatúa crestada de azufre
+Lori
+Cucal
+Abejaruco
+Cálao
+Colibrí
+Jacamar
+Tucán
+Pato macho
+Serreta cariblanca
+Ganso
+Cisne negro
+Elefante macho
+Equidna
+Ornitorrinco
+Wallaby
+Koala
+Wombat
+Medusa
+Anémona de mar
+Coral cerebro
+Gusano plano
+Nematodo
+Caracol marino
+Caracol
+Babosa
+Babosa de mar
+Quitón
+Nautilo de cámara
+Cangrejo Dungeness
+Cangrejo de roca
+Cangrejo violinista
+Cangrejo rey
+Langosta americana
+Langosta espinosa
+Cangrejo de río
+Cangrejo ermitaño
+Isópodo
+Cigüeña blanca
+Cigüeña negra
+Espátula
+Flamenco
+Garceta azul
+Garceta americana
+Avetorillo
+Grulla
+Carrao
+Gallineta europea
+Focha americana
+Avutarda
+Vuelvepiedras
+Correlimos dorsirrojo
+Archibebe común
+Agujeta
+Ostrero
+Pelícano
+Pingüino rey
+Albatros
+Ballena gris
+Orca
+Dugongo
+León marino
 Chihuahua
-Japanese spaniel
-Maltese dog
-Pekinese
+Spaniel japonés
+Perro maltés
+Pequinés
 Shih-Tzu
-Blenheim spaniel
-papillon
-toy terrier
+Spaniel Blenheim
+Papillon
+Terrier de juguete
 Rhodesian ridgeback
-Afghan hound
-basset
-beagle
-bloodhound
-bluetick
-black-and-tan coonhound
-Walker hound
-English foxhound
-redbone
-borzoi
-Irish wolfhound
-Italian greyhound
-whippet
-Ibizan hound
-Norwegian elkhound
-otterhound
+Galgo afgano
+Basset
+Beagle
+Sabueso
+Sabueso tricolor
+Coonhound negro y bronceado
+Sabueso Walker
+Sabueso inglés
+Redbone
+Borzoi
+Lebrel irlandés
+Galgo italiano
+Whippet
+Sabueso ibicenco
+Alce noruego
+Sabueso de nutria
 Saluki
-Scottish deerhound
+Galgo escocés
 Weimaraner
-Staffordshire bullterrier
+Staffordshire bull terrier
 American Staffordshire terrier
-Bedlington terrier
-Border terrier
-Kerry blue terrier
-Irish terrier
-Norfolk terrier
-Norwich terrier
+Terrier Bedlington
+Terrier Border
+Terrier Kerry blue
+Terrier irlandés
+Terrier Norfolk
+Terrier Norwich
 Yorkshire terrier
-wire-haired fox terrier
-Lakeland terrier
-Sealyham terrier
+Terrier de pelo de alambre
+Terrier Lakeland
+Terrier Sealyham
 Airedale
-cairn
-Australian terrier
+Cairn
+Terrier australiano
 Dandie Dinmont
-Boston bull
-miniature schnauzer
-giant schnauzer
-standard schnauzer
-Scotch terrier
-Tibetan terrier
-silky terrier
-soft-coated wheaten terrier
-West Highland white terrier
-Lhasa
-flat-coated retriever
-curly-coated retriever
-golden retriever
-Labrador (perro)
-Chesapeake Bay retriever
-German short-haired pointer
-vizsla
-English setter
-Irish setter
-Gordon setter
-Brittany spaniel
-clumber
-English springer
-Welsh springer spaniel
-cocker spaniel
+Toro de Boston
+Schnauzer miniatura
+Schnauzer gigante
+Schnauzer estándar
+Terrier escocés
+Terrier tibetano
+Terrier sedoso
+Terrier de trigo de pelo suave
+Terrier blanco de las tierras altas de Escocia
+Lhasa Apso
+Retriever de pelo liso
+Retriever de pelo rizado
+Golden retriever
+Labrador retriever
+Retriever de la bahía de Chesapeake
+Pointer alemán de pelo corto
+Vizsla
+Setter inglés
+Setter irlandés
+Setter Gordon
+Spaniel bretón
+Clumber spaniel
+Springer spaniel inglés
+Springer spaniel galés
+Cocker spaniel
 Sussex spaniel
-Irish water spaniel
-kuvasz
-schipperke
-groenendael
-malinois
-briard
-kelpie
-komondor
-Old English sheepdog
-Shetland sheepdog
-collie
+Spaniel de agua irlandés
+Kuvasz
+Schipperke
+Groenendael
+Malinois
+Briard
+Kelpie
+Komondor
+Pastor inglés antiguo
+Pastor de Shetland
+Collie
 Border collie
-Bouvier des Flandres
+Bouvier de Flandes
 Rottweiler
-German shepherd
+Pastor alemán
 Doberman
-miniature pinscher
-Greater Swiss Mountain dog
-Bernese mountain dog
+Pinscher miniatura
+Perro de montaña suizo mayor
+Perro de montaña Bernés
 Appenzeller
 EntleBucher
-boxer
-bull mastiff
-Tibetan mastiff
-French bulldog
-Great Dane
-Saint Bernard
-Eskimo dog
-malamute
-Siberian husky
-dalmatian
-affenpinscher
-basenji
-pug
-Leonberg
-Newfoundland
-Great Pyrenees
-Samoyed
-Pomeranian
-chow
-keeshond
-Brabancon griffon
-Pembroke
-Cardigan
-toy poodle
-miniature poodle
-standard poodle
-Mexican hairless
-timber wolf
-white wolf
-red wolf
-coyote
-dingo
-dhole
-African hunting dog
-hyena
-red fox
-kit fox
-zorro artico
-zorro gris
-gato atigrado
-tiger cat
-Persian cat
-Siamese cat
-gato egipcio
-cougar
-lynx
-leopardo
-snow leopard
-jaguar
-lion
-tiger
-guepardo
-brown bear
-American black bear
-ice bear
-sloth bear
-mongoose
-meerkat
-tiger beetle
-ladybug
-ground beetle
-long-horned beetle
-leaf beetle
-dung beetle
-rhinoceros beetle
-weevil
-fly
-bee
-ant
-grasshopper
-cricket
-walking stick
-cockroach
-mantis
-cicada
-leafhopper
-lacewing
-dragonfly
-damselfly
-admiral
-ringlet
-monarch
-cabbage butterfly
-sulphur butterfly
-lycaenid
-starfish
-sea urchin
-sea cucumber
-wood rabbit
-hare
+Boxer
+Mastín
+Mastín tibetano
+Bulldog francés
+Gran danés
+San Bernardo
+Perro esquimal
+Alaskan Malamute
+Husky siberiano
+Dálmata
+Affenpinscher
+Basenji
+Carlino
+Leonberger
+Terranova
+Gran Pirineo
+Samoyedo
+Pomerania
+Chow Chow
+Keeshond
+Brabançon
+Corgi Pembroke
+Corgi Cardigan
+Caniche toy
+Caniche miniatura
+Caniche estándar
+Xoloitzcuintle (perro sin pelo mexicano)
+Lobo gris
+Lobo blanco
+Lobo rojo
+Coyote
+Dingo
+Dhole
+Perro de caza africano
+Hiena
+Zorro rojo
+Zorro kit
+Zorro ártico
+Zorro gris
+Gato atigrado
+Gato tigre
+Gato persa
+Gato siamés
+Gato egipcio
+Puma
+Lince
+Leopardo
+Leopardo de las nieves
+Jaguar
+León
+Tigre
+Guepardo
+Oso pardo
+Oso negro americano
+Oso polar
+Oso perezoso
+Mangosta
+Suricata
+Escarabajo tigre
+Mariquita
+Escarabajo de tierra
+Escarabajo de cuernos largos
+Escarabajo de hojas
+Escarabajo estercolero
+Escarabajo rinoceronte
+Gorgojo
+Mosca
+Abeja
+Hormiga
+Saltamontes
+Grillo
+Insecto palo
+Cucaracha
+Mantis
+Cigarra
+Saltahojas
+Crisopa
+Libélula
+Caballito del diablo
+Almirante
+Aegina
+Monarca
+Mariposa de la col
+Mariposa sulfúrea
+Licénido
+Estrella de mar
+Erizo de mar
+Pepino de mar
+Conejo de madera
+Liebre
 Angora
-hamster
-porcupine
-ardilla zorro
-marmot
-beaver
-guinea pig
-sorrel
-zebra
-hog
-wild boar
-warthog
-hippopotamus
-ox
-water buffalo
-bison
-oveja
-bighorn
-ibex
-hartebeest
-impala
-gazelle
-Arabian camel
-llama
-weasel
-mink
-polecat
-black-footed ferret
-otter
-skunk
-badger
-armadillo
-three-toed sloth
-orangutan
-gorilla
-chimpanzee
-gibbon
-siamang
-guenon
-patas
-baboon
-macaque
-langur
-colobus
-proboscis monkey
-marmoset
-capuchin
-howler monkey
-titi
-spider monkey
-squirrel monkey
-Madagascar cat
-indri
-Indian elephant
-African elephant
-lesser panda
-panda gigante
-barracouta
-eel
-coho
-rock beauty
-anemone fish
-sturgeon
-gar
-lionfish
-puffer
-abacus
-abaya
-academic gown
-accordion
-acoustic guitar
-aircraft carrier
-airliner
-airship
-altar
-ambulance
-amphibian
-analog clock
-apiary
-apron
-ashcan
-assault rifle
-backpack
-bakery
-balance beam
-balloon
-ballpoint
-Band Aid
-banjo
-bannister
-barbell
-barber chair
-barbershop
-barn
-barometer
-barrel
-barrow
-baseball
-basketball
-bassinet
-bassoon
-bathing cap
-bath towel
-bathtub
-beach wagon
-beacon
-beaker
-bearskin
-beer bottle
-beer glass
-bell cote
-bib
-bicycle-built-for-two
-bikini
-binder
-binoculars
-birdhouse
-boathouse
-bobsled
-bolo tie
-bonnet
-bookcase
-bookshop
-bottlecap
-bow
-bow tie
-brass
-brassiere
-breakwater
-breastplate
-broom
-bucket
-buckle
-bulletproof vest
-bullet train
-butcher shop
-cab
-caldron
-candle
-cannon
-canoe
-can opener
-cardigan
-car mirror
-carousel
-carpenter's kit
-carton
-car wheel
-cash machine
-cassette
-cassette player
-castle
-catamaran
-CD player
-cello
-cellular telephone
-chain
-chainlink fence
-chain mail
-chain saw
-chest
-chiffonier
-chime
-china cabinet
-Christmas stocking
-church
-cinema
-cleaver
-cliff dwelling
-cloak
-clog
-cocktail shaker
-coffee mug
-coffeepot
-coil
-combination lock
-computer keyboard
-confectionery
-container ship
-convertible
-corkscrew
-cornet
-cowboy boot
-cowboy hat
-cradle
-crane
-crash helmet
-crate
-crib
-Crock Pot
-croquet ball
-crutch
-cuirass
-dam
-desk
-desktop computer
-dial telephone
-diaper
-digital clock
-digital watch
-dining table
-dishrag
-dishwasher
-disk brake
-dock
-dogsled
-dome
-doormat
-drilling platform
-drum
-drumstick
-dumbbell
-Dutch oven
-electric fan
-electric guitar
-electric locomotive
-entertainment center
-envelope
-espresso maker
-face powder
-feather boa
-file
-fireboat
-fire engine
-fire screen
-flagpole
-flute
-folding chair
-football helmet
-forklift
-fountain
-fountain pen
-four-poster
-freight car
-French horn
-frying pan
-fur coat
-garbage truck
-gasmask
-gas pump
-goblet
-go-kart
-golf ball
-golfcart
-gondola
-gong
-gown
-grand piano
-greenhouse
-grille
-grocery store
-guillotine
-hair slide
-hair spray
-half track
-hammer
-hamper
-hand blower
-hand-held computer
-handkerchief
-hard disc
-harmonica
-harp
-harvester
-hatchet
-holster
-home theater
-honeycomb
-hook
-hoopskirt
-horizontal bar
-horse cart
-hourglass
+Hámster
+Puercoespín
+Ardilla zorro
+Marmota
+Castor
+Cobayo
+Sorgo
+Cebra
+Cerdo
+Jabalí
+Jabalí verrugoso
+Hipopótamo
+Buey
+Búfalo de agua
+Bisonte
+Carnero
+Borrego cimarrón
+Íbice
+Búbalo
+Impala
+Gacela
+Camello árabe
+Llama
+Comadreja
+Vison
+Turón
+Hurón de patas negras
+Nutria
+Mofeta
+Tejón
+Armadillo
+Perezoso de tres dedos
+Orangután
+Gorila
+Chimpancé
+Gibón
+Siamang
+Mono guenon
+Patas
+Babuino
+Macaco
+Langur
+Colobo
+Mono narigudo
+Marmoset
+Capuchino
+Mono aullador
+Titi
+Mono araña
+Mono ardilla
+Gato de Madagascar
+Indri
+Elefante indio
+Elefante africano
+Panda menor
+Panda gigante
+Bacalao
+Anguila
+Salmón coho
+Pez ángel
+Pez payaso
+Esturión
+Gar
+Pez león
+Pez globo
+Ábaco
+Abaya
+Toga académica
+Acordeón
+Guitarra acústica
+Portaaviones
+Avión de pasajeros
+Dirigible
+Altar
+Ambulancia
+Anfibio
+Reloj analógico
+Colmena
+Delantal
+Cubo de basura
+Fusil de asalto
+Mochila
+Panadería
+Barra de equilibrio
+Globo
+Bolígrafo
+Vendaje adhesivo
+Banjo
+Barandilla
+Barra de pesas
+Sillón de barbero
+Barbería
+Granero
+Barómetro
+Barril
+Carretilla
+Béisbol
+Baloncesto
+Moisés
+Fagot
+Gorro de baño
+Toalla de baño
+Bañera
+Carrito de playa
+Faro
+Matraz
+Piel de oso
+Botella de cerveza
+Vaso de cerveza
+Campanario
+Babero
+Bicicleta doble
+Bikini
+Carpeta
+Prismáticos
+Casa de pájaros
+Casa de botes
+Trineo
+Corbata bolo
+Capó
+Librería
+Librería
+Tapa de botella
+Arco
+Pajarita
+Latón
+Sostén
+Rompeolas
+Coraza
+Escoba
+Cubo
+Hebilla
+Chaleco antibalas
+Tren de alta velocidad
+Carnicería
+Taxi
+Caldero
+Vela
+Cañón
+Canoa
+Abrelatas
+Cárdigan
+Espejo de coche
+Carrusel
+Kit de carpintero
+Cartón
+Rueda de coche
+Cajero automático
+Casete
+Reproductor de casetes
+Castillo
+Catamarán
+Reproductor de CD
+Violonchelo
+Teléfono celular
+Cadena
+Valla de cadena
+Cota de malla
+Sierra de cadena
+Pecho
+Cómoda
+Campana
+Vitrina de porcelana
+Calcetín de Navidad
+Iglesia
+Cine
+Cuchillo de carnicero
+Morada en acantilados
+Capa
+Zueco
+Coctelera
+Taza de café
+Cafetera
+Bobina
+Cerradura de combinación
+Teclado de computadora
+Confitería
+Barco portacontenedores
+Descapotable
+Sacacorchos
+Corneta
+Bota de vaquero
+Sombrero de vaquero
+Cuna
+Grúa
+Casco de protección
+Caja de madera
+Cuna
+Olla de cocción lenta
+Pelota de croquet
+Muleta
+Coraza
+Presa
+Escritorio
+Computadora de escritorio
+Teléfono de disco
+Pañal
+Reloj digital
+Reloj digital
+Mesa de comedor
+Trapo de cocina
+Lavavajillas
+Freno de disco
+Muelle
+Trineo tirado por perros
+Cúpula
+Felpudo
+Plataforma de perforación
+Tambor
+Baqueta
+Mancuerna
+Olla holandesa
+Ventilador eléctrico
+Guitarra eléctrica
+Locomotora eléctrica
+Centro de entretenimiento
+Sobre
+Cafetera exprés
+Polvo facial
+Boa de plumas
+Archivo
+Barco de bomberos
+Camión de bomberos
+Protector de chimenea
+Asta de bandera
+Flauta
+Silla plegable
+Casco de fútbol americano
+Montacargas
+Fuente
+Pluma estilográfica
+Cama con dosel
+Vagón de carga
+Trompa francesa
+Sartén
+Abrigo de piel
+Camión de basura
+Máscara de gas
+Bomba de gasolina
+Copa
+Go-kart
+Pelota de golf
+Carrito de golf
+Góndola
+Gong
+Vestido
+Piano de cola
+Invernadero
+Rejilla
+Tienda de comestibles
+Guillotina
+Pinza para el cabello
+Laca para el cabello
+Semioruga
+Martillo
+Cesto
+Secador de manos
+Computadora portátil
+Pañuelo
+Disco duro
+Armónica
+Arpa
+Cosechadora
+Hacha
+Funda para pistola
+Cine en casa
+Panal de abejas
+Gancho
+Falda de aro
+Barra horizontal
+Carro de caballos
+Reloj de arena
 iPod
-iron
-jack-o'-lantern
-jean
-jeep
-jersey
-jigsaw puzzle
-jinrikisha
-joystick
-kimono
-knee pad
-knot
-lab coat
-ladle
-lampshade
-laptop
-lawn mower
-lens cap
-letter opener
-library
-lifeboat
-lighter
-limousine
-liner
-lipstick
-Loafer
-lotion
-loudspeaker
-loupe
-lumbermill
-magnetic compass
-mailbag
-mailbox
-maillot
-maillot
-manhole cover
-maraca
-marimba
-mask
-matchstick
-maypole
-maze
-measuring cup
-medicine chest
-megalith
-microphone
-microwave
-military uniform
-milk can
-minibus
-miniskirt
-minivan
-missile
-mitten
-mixing bowl
-mobile home
-Model T
-modem
-monastery
-monitor
-moped
-mortar
-mortarboard
-mosque
-mosquito net
-motor scooter
-mountain bike
-mountain tent
-mouse
-mousetrap
-moving van
-muzzle
-nail
-neck brace
-necklace
-nipple
-notebook
-obelisk
-oboe
-ocarina
-odometer
-oil filter
-organ
-oscilloscope
-overskirt
-oxcart
-oxygen mask
-packet
-paddle
-paddlewheel
-padlock
-paintbrush
-pajama
-palace
-panpipe
-paper towel
-parachute
-parallel bars
-park bench
-parking meter
-passenger car
-patio
-pay-phone
-pedestal
-pencil box
-pencil sharpener
-perfume
-Petri dish
-photocopier
-pick
-pickelhaube
-picket fence
-pickup
-pier
-piggy bank
-pill bottle
-pillow
-ping-pong ball
-pinwheel
-pirate
-pitcher
-plane
-planetarium
-plastic bag
-plate rack
-plow
-plunger
-Polaroid camera
-pole
-police van
-poncho
-pool table
-pop bottle
-pot
-potter's wheel
-power drill
-prayer rug
-printer
-prison
-projectile
-projector
-puck
-punching bag
-purse
-quill
-quilt
-racer
-racket
-radiator
-radio
-radio telescope
-rain barrel
-recreational vehicle
-reel
-reflex camera
-refrigerator
-remote control
-restaurant
-revolver
-rifle
-rocking chair
-rotisserie
-rubber eraser
-rugby ball
-rule
-running shoe
-safe
-safety pin
-saltshaker
-sandal
-sarong
-sax
-scabbard
-scale
-school bus
-schooner
-scoreboard
-screen
-screw
-screwdriver
-seat belt
-sewing machine
-shield
-shoe shop
-shoji
-shopping basket
-shopping cart
-shovel
-shower cap
-shower curtain
-ski
-ski mask
-sleeping bag
-slide rule
-sliding door
-slot
-snorkel
-snowmobile
-snowplow
-soap dispenser
-soccer ball
-sock
-solar dish
-sombrero
-soup bowl
-space bar
-space heater
-space shuttle
-spatula
-speedboat
-spider web
-spindle
-sports car
-spotlight
-stage
-steam locomotive
-steel arch bridge
-steel drum
-stethoscope
-stole
-stone wall
-stopwatch
-stove
-strainer
-streetcar
-stretcher
-studio couch
-stupa
-submarine
-suit
-sundial
-sunglass
-sunglasses
-sunscreen
-suspension bridge
-swab
-sweatshirt
-swimming trunks
-swing
-switch
-syringe
-table lamp
-tank
-tape player
-teapot
-teddy
-television
-tennis ball
-thatch
-theater curtain
-thimble
-thresher
-throne
-tile roof
-toaster
-tobacco shop
-toilet seat
-torch
-totem pole
-tow truck
-toyshop
-tractor
-trailer truck
-tray
-trench coat
-tricycle
-trimaran
-tripod
-triumphal arch
-trolleybus
-trombone
-tub
-turnstile
-typewriter keyboard
-umbrella
-unicycle
-upright
-vacuum
-vase
-vault
-velvet
-vending machine
-vestment
-viaduct
-violin
-volleyball
-waffle iron
-wall clock
-wallet
-wardrobe
-warplane
-washbasin
-washer
-water bottle
-water jug
-water tower
-whiskey jug
-whistle
-wig
-window screen
-window shade
-Windsor tie
-wine bottle
-wing
-wok
-wooden spoon
-wool
-worm fence
-wreck
-yawl
-yurt
-web site
-comic book
-crossword puzzle
-street sign
-traffic light
-book jacket
-menu
-plate
-guacamole
-consomme
-hot pot
-trifle
-ice cream
-ice lolly
-French loaf
-bagel
-pretzel
-cheeseburger
-hotdog
-mashed potato
-head cabbage
-broccoli
-cauliflower
-zucchini
-spaghetti squash
-acorn squash
-butternut squash
-cucumber
-artichoke
-bell pepper
-cardoon
-mushroom
-Granny Smith
-strawberry
-orange
-lemon
-fig
-pineapple
-banana
-jackfruit
-custard apple
-pomegranate
-hay
-carbonara
-chocolate sauce
-dough
-meat loaf
-pizza
-potpie
-burrito
-red wine
-espresso
-cup
-eggnog
-alp
-bubble
-cliff
-coral reef
-geyser
-lakeside
-promontory
-sandbar
-seashore
-valley
-volcano
-ballplayer
-groom
-scuba diver
-rapeseed
-daisy
-yellow lady's slipper
-corn
-acorn
-hip
-buckeye
-coral fungus
-agaric
-gyromitra
-stinkhorn
-earthstar
-hen-of-the-woods
-bolete
-ear
-toilet tissue
+Plancha
+Calabaza de Halloween
+Pantalón vaquero
+Jeep
+Jersey
+Rompecabezas
+Jinrikisha
+Palanca de mando
+Kimono
+Rodillera
+Nudo
+Bata de laboratorio
+Cucharón
+Pantalla de lámpara
+Computadora portátil
+Cortadora de césped
+Tapa de lente
+Abrecartas
+Biblioteca
+Bote salvavidas
+Encendedor
+Limusina
+Transatlántico
+Pintalabios
+Mocasín
+Loción
+Altavoz
+Lupa
+Aserradero
+Brújula magnética
+Bolsa de correo
+Buzón
+Maillot
+Maillot
+Tapa de alcantarilla
+Maraca
+Marimba
+Máscara
+Cerilla
+Mástil de mayo
+Laberinto
+Taza medidora
+Botiquín
+Megalito
+Micrófono
+Microondas
+Uniforme militar
+Lata de leche
+Minibús
+Minifalda
+Minivan
+Misil
+Mitón
+Bol de mezcla
+Casa móvil
+Modelo T
+Módem
+Monasterio
+Monitor
+Ciclomotor
+Mortero
+Birrete
+Mezquita
+Mosquitera
+Patinete
+Bicicleta de montaña
+Tienda de campaña
+Ratón
+Trampa para ratones
+Furgoneta de mudanzas
+Bozal
+Clavo
+Collarín
+Collar
+Pezón
+Cuaderno
+Obelisco
+Oboe
+Ocarina
+Odómetro
+Filtro de aceite
+Órgano
+Osciloscopio
+Sobrefalda
+Carro de bueyes
+Máscara de oxígeno
+Paquete
+Remo
+Rueda de paletas
+Candado
+Pincel
+Pijama
+Palacio
+Zampona
+Toalla de papel
+Paracaídas
+Barras paralelas
+Banco de parque
+Parquímetro
+Coche de pasajeros
+Patio
+Teléfono público
+Pedestal
+Estuche de lápices
+Sacapuntas
+Perfume
+Placa de Petri
+Fotocopiadora
+Pico
+Pickelhaube
+Valla de estacas
+Camioneta de carga
+Muelle
+Hucha
+Botella de píldoras
+Almohada
+Pelota de ping-pong
+Molinillo de viento
+Pirata
+Jarra
+Avión
+Planetario
+Bolsa de plástico
+Escurreplatos
+Arado
+Émbolo
+Cámara Polaroid
+Poste
+Furgoneta de policía
+Poncho
+Mesa de billar
+Botella de refresco
+Olla
+Torno de alfarero
+Taladro eléctrico
+Alfombra de oración
+Impresora
+Prisión
+Proyectil
+Proyector
+Disco de hockey
+Saco de boxeo
+Bolso
+Pluma
+Colcha
+Corredor
+Raqueta
+Radiador
+Radio
+Radiotelescopio
+Barril de lluvia
+Vehículo recreativo
+Carrete
+Cámara réflex
+Refrigerador
+Control remoto
+Restaurante
+Revólver
+Rifle
+Mecedora
+Asador
+Borrador de goma
+Balón de rugby
+Regla
+Zapatilla de deporte
+Caja fuerte
+Alfiler de seguridad
+Salero
+Sandalia
+Sarong
+Saxofón
+Vaina
+Báscula
+Autobús escolar
+Goleta
+Marcador
+Pantalla
+Tornillo
+Destornillador
+Cinturón de seguridad
+Máquina de coser
+Escudo
+Zapatería
+Shoji (panel japonés)
+Cesta de la compra
+Carrito de la compra
+Pala
+Gorro de ducha
+Cortina de ducha
+Esquí
+Pasamontañas
+Saco de dormir
+Regla de cálculo
+Puerta corrediza
+Ranura
+Tubo respirador
+Moto de nieve
+Quitanieves
+Dispensador de jabón
+Pelota de fútbol
+Calcetín
+Disco solar
+Sombrero mexicano
+Plato de sopa
+Barra espaciadora
+Calentador espacial
+Transbordador espacial
+Espátula
+Lancha motora
+Telaraña
+Huso
+Coche deportivo
+Foco
+Escenario
+Locomotora de vapor
+Puente de arco de acero
+Tambor de acero
+Estetoscopio
+Estola
+Muro de piedra
+Cronómetro
+Estufa
+Colador
+Tranvía
+Camilla
+Sofá cama
+Stupa (monumento budista)
+Submarino
+Traje
+Reloj de sol
+Gafas de sol
+Gafas de sol
+Protector solar
+Puente colgante
+Hisopo
+Sudadera
+Pantalones de baño
+Columpio
+Interruptor
+Jeringa
+Lámpara de mesa
+Tanque
+Reproductor de cintas
+Tetera
+Oso de peluche
+Televisión
+Pelota de tenis
+Paja
+Telón de teatro
+Dedal
+Trilladora
+Trono
+Techo de tejas
+Tostadora
+Tienda de tabaco
+Asiento de inodoro
+Antorcha
+Tótem
+Camión de remolque
+Tienda de juguetes
+Tractor
+Camión remolque
+Bandeja
+Gabardina
+Triciclo
+Trimarán
+Trípode
+Arco triunfal
+Trolebús
+Trombón
+Bañera
+Torniquete
+Teclado de máquina de escribir
+Paraguas
+Monociclo
+Vertical
+Aspiradora
+Jarrón
+Bóveda
+Terciopelo
+Máquina expendedora
+Vestimenta
+Viaducto
+Violín
+Voleibol
+Gofrera
+Reloj de pared
+Billetera
+Armario
+Avión de guerra
+Lavabo
+Lavadora
+Botella de agua
+Jarra de agua
+Torre de agua
+Jarra de whisky
+Silbato
+Peluca
+Mosquitera
+Persiana
+Corbata Windsor
+Botella de vino
+Ala
+Wok
+Cuchara de madera
+Lana
+Cerca de madera
+Naufragio
+Yola
+Yurta
+Sitio web
+Libro de cómics
+Crucigrama
+Señal de calle
+Semáforo
+Cubierta de libro
+Menú
+Plato
+Guacamole
+Consomé
+Olla caliente
+Trifle
+Helado
+Polo de helado
+Barra de pan francés
+Bagel
+Pretzel
+Hamburguesa con queso
+Perrito caliente
+Puré de papas
+Col repollo
+Brócoli
+Coliflor
+Calabacín
+Calabaza espagueti
+Calabaza de bellota
+Calabaza moscada
+Pepino
+Alcachofa
+Pimiento rojo
+Cardo
+Champiñón
+Manzana Granny Smith
+Fresa
+Naranja
+Limón
+Higo
+Piña
+Plátano
+Jaca
+Chirimoya
+Granada
+Heno
+Carbonara
+Salsa de chocolate
+Masa
+Pastel de carne
+Pizza
+Empanada
+Burrito
+Vino tinto
+Espresso
+Copa
+Ponche de huevo
+Alpes
+Burbuja
+Acantilado
+Arrecife de coral
+Géiser
+Orilla del lago
+Promontorio
+Barra de arena
+Orilla del mar
+Valle
+Volcán
+Jugador de béisbol
+Novio
+Buzo
+Colza
+Margarita
+Zapatilla de dama amarilla
+Maíz
+Bellota
+Cadera
+Castaña
+Hongo coral
+Agárico
+Gyromitra
+Phallus impudicus (hongo falo)
+Estrella de tierra
+Grifola frondosa (maitake)
+Bolete
+Oreja
+este no es un animal

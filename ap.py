@@ -1,8 +1,14 @@
 from flask import Flask, render_template, request, session
 import os
+from openai import OpenAI
 import cv2
 import numpy as np
 import tensorflow as tf
+from dotenv import load_dotenv
+# cargar la api key
+load_dotenv()
+client = OpenAI()
+
 
 app = Flask(__name__, static_folder="static")
 app.secret_key = 'your_secret_key'  
@@ -71,6 +77,37 @@ def index():
         image_path = None
 
     return render_template('index.html', image_path=image_path, model_names=model_names)
+
+from flask import jsonify
+@app.route('/m', methods=['POST'])
+def chat():
+    # Reiniciar la conversación si se presiona el botón de enviar una pregunta
+    if request.form.get("question"):
+        session["conversation"] = ""
+
+    user_input = request.form.get("user_input")
+
+    if user_input:
+        try:
+            # Procesar la pregunta recibida
+            response = client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "user", "content": user_input}
+                ]
+            )
+
+            if response.choices:
+                chatbot_response = response.choices[0].message.content
+
+                # Agregar solo la respuesta del chatbot a la conversación
+                session["conversation"] += f"DESCRIPCION DEL ANIMAL: {chatbot_response}\n"
+            else:
+                session["conversation"] += f"Error al hacer la petición"
+        except Exception as e:
+            session["conversation"] += f"Error al hacer la petición: {str(e)}\n"
+
+    return jsonify(conversation=session["conversation"])
 
 @app.route('/predecir')
 @app.route('/predecir')
