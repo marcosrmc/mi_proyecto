@@ -2,42 +2,44 @@
 <html lang="en">
 
 <head>
-    <title>Bio-guia</title>
+    <title>id-fauna</title>
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
 </head>
 
 <body>
     <header>
+        
 
         <div class="container">
-            <p class="logo">Bio-guia!</p>
+            <p class="logo">ID-Fauna!</p>
+            
+            <span class="bander"></span>
+           
             <nav>
                 <a href="#somos-proya">Quienes Somos</a>
-                <a href="#nuestros-programas">Nuestro Programa</a>
-                <a href="#caracteristicas">Características</a>
+                <a href="#nuestros-programas">Tipos de Animales </a>
+                
             </nav>
         </div>
     </header>
 
     <section id="hero">
-        <h1>Aprendé de animales <br>y donde encontrarlos</h1>
-        <button><a href="{{ url_for('predecir') }}">BUSCALOS YA!</a></button>
+        <h1 >Aniameles fantasticos <br>y<br> donde encontrarlos</h1>
+        <button><a href="{{ url_for('predecir') }}" class="link_blanco">BUSCALOS YA!</a></button>
     </section>
 
     <section id="somos-proya">
         <div class="container">
             <div class="img-container"></div>
             <div class="texto">
-
-                <h2>Somos <span class="color-acento">Bio-guia!</span></h2>
-                <p>En Bio-guia, nos apasiona el fascinante mundo de los animales terrestres.
-                    Somos un equipo de amantes de la naturaleza dedicados a proporcionar información
-                    exhaustiva y entretenida sobre la vida salvaje que habita en nuestro planeta.</p>
+                <h2>Somos <span class="color-acento">ID-Fauna!</span></h2>
+                <p>En ID-Fauna!, nos preocupa la receptividad y la confusión de animales 
+                    posiblemente peligrosos para los humanos debido a la desinformación causada por la apariencia de los animales.
+                </p>
                 <p>
-                    En nuestra plataforma, encontrarás una amplia variedad de contenido relacionado
-                    con animales terrestres, desde artículos informativos sobre sus hábitos y
-                    características hasta noticias sobre conservación y descubrimientos científicos.
+                    En nuestra plataforma, encontrarás una gran variedad de animales con información que puede ayudarte a prevenir
+                     y enfrentar encuentros con animales, contribuyendo así a preservar su hábitat y la salud del usuario.
                 </p>
             </div>
         </div>
@@ -45,33 +47,22 @@
 
     <section id="nuestros-programas">
         <div class="container">
-            <h2>Nuestro Programa</h2>
+            <h2>Grupos Dominantes </h2>
             <div class="programas">
                 <div class="carta">
                     <h3>Animales domesticos</h3>
-                    <p>Descubre la fascinante vida de los animales domésticos que comparten nuestros hogares.
-                        Desde las travesuras de nuestras mascotas de cuatro patas hasta las peculiaridades de
-                         las emplumadas y escamosas, explora el cuidado, comportamiento y la conexión especial
-                          que tenemos con ellos. Déjate cautivar por la calidez y alegría que traen a nuestras
-                           vidas.</p>
-                    <!--button>+ Info</button-->
+                    <p>Criados por humanos para vivir en sus hogares y compartir su vida con la tuya ofrecerte su lealtad como los perros y gatos  </p>
+                    <button>+ Info</button-->
                 </div>
                 <div class="carta">
                     <h3> Animales rurales </h3>
-                    <p>Explora el fascinante mundo de los animales rurales, vitales para la vida en el campo. 
-                        Desde las vacas y caballos hasta las gallinas y ovejas, descubre su importancia, cuidado
-                         y belleza en la agricultura y la vida rural. Explora su papel en la producción de 
-                         alimentos y su conexión con la tierra y las comunidades rurales.
-                        </p>
-                    <!--button>+ Info</button-->
+                    <p><br> <br>Hacen de las granjas y áreas rurales su hogar, piensa en las vacas que pastan en los campos o los caballos</p>
+                    <button>+ Info</button-->
                 </div>
                 <div class="carta">
                     <h3>Animales peligrosos</h3>
-                    <p>Explora el intrigante mundo de los animales peligrosos, criaturas que inspiran respeto
-                         y cautela por su potencial amenaza. Desde depredadores majestuosos hasta reptiles sigilosos,
-                          descubre su fascinante biología y comportamiento, así como las precauciones necesarias
-                           para coexistir de manera segura. ¡Embárcate en un viaje cautivador por el lado salvaje de la naturaleza!</p>
-                    <!--button>+ Info</button-->
+                    <p>representar una amenaza para los seres humanos debido a su tamaño, fuerza, veneno u otros medios de defensa</p>
+                    <button>+ Info</button-->
                 </div>
             </div>
         </div>
@@ -79,13 +70,13 @@
 
     <section id="final">
         <h2>Listo para explorar?</h2>
-        <button><a href="{{ url_for('predecir') }}">BUSCALOS YA!</a></button>
+        <button><a href="{{ url_for('predecir') }}" class="link_blanco">BUSCALOS YA!</a></button>
 
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; Bio-guia <span id="year"></span></p>
+            <p>&copy; ID-Fauna! <span id="year"></span></p>
 
         </div>
     </footer>

@@ -4,80 +4,159 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CLASIFICADOR DE ANIMALES</title>
+   
     <link rel="stylesheet" href="{{ url_for('static', filename='prd.css') }}">
 </head>
 <body>
-    
-    <div id="result">
-        <header>
-            <div class="container">
-                <p class="logo">Bio-guia!</p>
-                <nav>
-                    <a href="#somos-proya">Instrucciones</a>
-                </nav>
-            </div>
-        </header>
-    
-        <section id="hero">
-            <h1>Busca <br> <span style="color:rgb(19, 119, 44);">&</span><br>Descubre</h1>
+    <header>
+        <div class="container">
+            <p class="logo">ID-Fauna</p>
+            <span class="bander"></span>
+            <nav>
+            <nav>
+                <a href="#somos-proya">Instrucciones</a>
+                <a href="#caracteristicas">Programa</a>
+            </nav>
+        </div>
+    </header>
 
-            <div id="contenedor-prediccion">
-                <!-- Tu formulario y resultados aquí -->
-         
-                <form action="/" method="post" enctype="multipart/form-data" id="animal-form">
-                    <label for="image">Seleccionar imagen:</label>
-                    <input type="file" id="image" name="image" accept="image/*" title="Seleccionar imagen">
-                   
-                    
-                    <select id="model" name="model">
-                        {% for model_name in model_names %}
-                            <option value="{{ model_name }}">{{ model_name }}</option>
-                        {% endfor %}
-                    </select>
-                    
-                    <button type="submit" id="btnpredecir">Predecir</button>
-                </form>
-                
-                
-                {% if image_path %}
-                <div class="result">
-                    <h2 style="color: white;">Imagen seleccionada:</h2>
-                    <!-- Muestra la imagen si hay una ruta de imagen disponible -->
-                    <img src="{{ url_for('static', filename='temp_image.jpg') }}"style="width: 200; height: 200px;" alt="Imagen seleccionada">
-                </div>
-                {% endif %}
-                
-                {% if predicted_results %}
-<div class="result">
-    <h2>Resultado:</h2>
-    {% for predicted_class in predicted_results %}
-    Clase: {{ predicted_class }} <br>
-    <button type="button" class="btn btn-info"> mostrar Descripción</button>
-    <br> <!-- Agrega un salto de línea después de cada clase predicha -->
-    {% endfor %}
-</div>
-{% endif %}
-                
-
-            
-
-            </div>
-            
-        </section>
-    
-        <section id="somos-proya">
-            <div class="container">
-                <div class="img-container"></div>
-                <div class="texto">
-    
-                    <h2>Instrucciones</h2>
-                    <p>Para usar este programa debe hacer clic en Seleccionar Imagen y despues de seleccionar, hacer clic en Predecir.
-                         Luego el programa le mostrará un resultado de a que animal se parece y le mostrará un porcentaje de precición.</p>
-                </div>
-            </div>
-        </section>
+    <section id="hero">
+        <div class="column text-content">
+            <h1>Busca <br><span class="color-acento">&</span><br> Descubre</h1>
+            <button  onclick="scrollToSection('caracteristicas')">Diviértete</button>
+        </div>
         
-    </div>
+    </section>
+
+    <section id="somos-proya">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+                <h2><span class="color-acento">Instrucciones</span></h2>
+                <p>Para usar este programa, primero haga clic en 'Seleccionar Imagen' y luego, después de seleccionarla, haga clic en 'Predecir'. El programa le mostrará un resultado indicando a qué animal se parece su imagen y un porcentaje de precisión asociado. Y luego darle al boton descripcion para ver la descripcion del animal</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="caracteristicas" id="prediccion">
+        <div class="caracteristicas" style="margin: 40px; padding: 10pc;;"><!--usa este div para suvir e predictor -->
+            
+            <form action="/" method="post" enctype="multipart/form-data" id="animal-form">
+                <h2 style="color: white;" >CLICK EN SELECCIONAR PARA INSERTAR IMAGEN:</h2>
+                <label id="boton_imagen" class="bo" for="image">Seleccionar</label> <br>
+                <input type="file" id="image" name="image" accept="image/*" title="Seleccionar imagen">
+                   
+                <input class="link_blanco" id="imageInput"  type="file" id="image" name="image" accept="image/*" title="Seleccionar imagen">
+
+
+                <select id="model" name="model">
+                    {% for model_name in model_names %}
+                    <option value="{{ model_name }}">{{ model_name }}</option>
+                    {% endfor %}
+                </select>
+
+                <button class="link_blanco" type="submit" >Predecir</button>
+            </form>
+
+
+            {% if image_path %}
+            <div class="result">
+                <h2 style="color: white;" >Imagen seleccionada:</h2>
+                <!-- Muestra la imagen si hay una ruta de imagen disponible -->
+                <img src="{{ url_for('static', filename='temp_image.jpg') }}" style="width: 60%; height: 60%;"
+                    alt="Imagen seleccionada">
+            </div>
+            {% endif %}
+
+            {% if predicted_results %}
+            <div class="result">
+                <h2>Resultado:</h2>
+                {% for predicted_class in predicted_results %}
+                Clase: {{ predicted_class }}% <br>
+                <form class="chat-form" method="POST" data-question="{{ predicted_class }}">
+                    <input type="hidden" name="user_input" value="">
+                    <input type="submit" value="Enviar" style="display: none;">
+                </form>
+                <form class="tiger-form" method="POST" data-description="quiero que me des una descripcion en este formato pero con el animal  {{ predicted_class }} exacto y no de zebra ignora los numeros: ZEBRA (NO PELIGROSO) Las cebras, rayadas y gráciles, son símbolos icónicos de la sabana africana.CATEGORÍA: Mamífero herbívoro ASPECTO FÍSICO HÁBITOS DE VIDA REPRODUCCIÓN Y CICLO DE VIDA INTERACCIONES SOCIALES IMPORTANCIA ECOLÓGICA Y CONSERVACIÓN bien alineado todo ">
+                    <button type="submit" class="btn btn-info">Mostrar Descripción</button>
+                </form>
+                <br> <!-- Agrega un salto de línea después de cada clase predicha -->
+                {% endfor %}
+                
+                <div style="background-color: #165802;" id="conversation" class="chat-box" contenteditable="false">
+                    {{ conversation | safe }}
+                </div>
+                   
+               
+            
+            </div>
+            {% endif %}
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy;ID-Fauna 2024 <br>Universidad Loyola</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.tiger-form').submit(function(event) {
+                event.preventDefault(); // Evita que el formulario se envíe de forma predeterminada
+    
+                // Desactivar el botón para evitar múltiples clics
+                $('.tiger-form button[type="submit"]').prop('disabled', true);
+    
+                $.ajax({
+                    type: 'POST',
+                    url: '/m',
+                    data: {
+                        user_input: $(this).data('description'),
+                        question: false // Indica que no es una pregunta
+                    },
+                    success: function(response) {
+                        $('#conversation').html(response.conversation); // Actualiza la conversación en el div
+                    },
+                    complete: function() {
+                        // Reactivar el botón después de completar la solicitud
+                        $('.tiger-form button[type="submit"]').prop('disabled', false);
+                    }
+                });
+            });
+    
+            $('.chat-form').submit(function(event) {
+                event.preventDefault(); // Evita que el formulario se envíe de forma predeterminada
+    
+                // Desactivar el botón para evitar múltiples clics
+                $('.chat-form button[type="submit"]').prop('disabled', true);
+    
+                var question = $(this).data('question');
+    
+                $.ajax({
+                    type: 'POST',
+                    url: '/m',
+                    data: {
+                        user_input: question,
+                        question: true // Indica que es una pregunta
+                    },
+                    success: function(response) {
+                        $('#conversation').html(response.conversation); // Actualiza la conversación en el div
+                    },
+                    complete: function() {
+                        // Reactivar el botón después de completar la solicitud
+                        $('.chat-form button[type="submit"]').prop('disabled', false);
+                    }
+                });
+            });
+        });
+    </script>
+
+
     <script>
 
         function seleccionarImagen() {
@@ -98,13 +177,12 @@
         });
     </script>
 
-<footer>
-    <div class="container">
-        <p>&copy; Bio-guia 2024</p>
-    </div>
-</footer>
-
-
+    <script>
+        function scrollToSection(sectionId){
+        var section = document.getElementById(sectionId);
+        section.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 
 </body>
 </html>
